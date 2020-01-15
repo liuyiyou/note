@@ -44,19 +44,19 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      drawer: Drawer(
-        elevation: 10,
-        child: NavHeader(Transform.rotate(
-          angle: pi,
-          child: IconButton(
-              icon: Icon(
-                Icons.exit_to_app,
-                color: Colors.white,
-                size: 30,
-              ),
-              onPressed: model.logic.onExitTap),
-        )),
-      ),
+//      drawer: Drawer(
+//        elevation: 10,
+//        child: NavHeader(Transform.rotate(
+//          angle: pi,
+//          child: IconButton(
+//              icon: Icon(
+//                Icons.exit_to_app,
+//                color: Colors.white,
+//                size: 30,
+//              ),
+//              onPressed: model.logic.onExitTap),
+//        )),
+//      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
